@@ -1,0 +1,7 @@
+cv2
+tqdm
+pickle
+matplotlib
+numpy
+keras
+sklearn
