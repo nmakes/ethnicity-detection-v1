@@ -6,7 +6,7 @@ We train 4 CNN architectures for 30 epochs and comapre the classification scores
 
 Venkat, N., Srivastava, S. (2018). Ethnicity Detection using Deep Convolutional Neural Networks. DOI: 10.13140/RG.2.2.34591.20642
 
-[Download the report here](doi.org/10.13140/RG.2.2.34591.20642).
+[Download the report here](https://doi.org/10.13140/RG.2.2.34591.20642/1).
 
 ## STEP 1: Getting the models and train-test split
 You can [download models and train-test split here](https://drive.google.com/drive/folders/18CBSmBZo0gjyGNdMBBRrrxD0YvjelOmI?usp=sharing)
