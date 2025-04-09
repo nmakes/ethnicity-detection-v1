@@ -1,25 +1,12 @@
-# Ethnicity Detection Using Convolutional Neural Networks
+# [archived] Ethnicity Detection Using Convolutional Neural Networks
 
-We train 4 CNN architectures for 30 epochs and comapre the classification scores. The data used is taken from [UTKFace dataset](https://susanqq.github.io/UTKFace/). Each network achieves 75%+ peak accuracy in classification.
+Thank you for visiting this page. This project is no longer being maintained.
 
-## Cite
+Quick notes on what this project was about:
 
-Venkat, N., Srivastava, S. (2018). Ethnicity Detection using Deep Convolutional Neural Networks. DOI: 10.13140/RG.2.2.34591.20642
-
-[Download the report here](https://doi.org/10.13140/RG.2.2.34591.20642/1).
-
-## STEP 1: Getting the models and train-test split
-You can [download models and train-test split here](https://drive.google.com/drive/folders/18CBSmBZo0gjyGNdMBBRrrxD0YvjelOmI?usp=sharing)
-
-## STEP 2: Installing Requirements
-	
-	python3 -m pip install -r requirements.txt
-
-## STEP 3: Running
-Executing the code for training and testing
-
-	python3 main.py
-
-Executing the code to view results on the trained models
-
-	python3 accuracies.py
+* We trained 4 CNN architectures for 30 epochs and comapred the classification scores on the [UTKFace dataset](https://susanqq.github.io/UTKFace/).
+* To run:
+  * Install requirements `python3 -m pip install -r requirements.txt`
+  * Obtain the [UTKFace dataset](https://susanqq.github.io/UTKFace/), and use [these functions](https://github.com/nmakes/ethnicity-detection-v1/blob/031944e308ef4274129074c8c62f58d18a1eb48e/main.py#L395-L402) to generate the train/test split.
+  * Run `python3 main.py` for training
+  * Run `python3 accuracies.py` for computing metrics
